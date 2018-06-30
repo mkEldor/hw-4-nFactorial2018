@@ -15,6 +15,9 @@
 		AF26F21D20E6300C00A84E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF26F21B20E6300C00A84E2B /* LaunchScreen.storyboard */; };
 		AF26F22820E6300C00A84E2B /* HW_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26F22720E6300C00A84E2B /* HW_5Tests.swift */; };
 		AF26F23320E6300C00A84E2B /* HW_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26F23220E6300C00A84E2B /* HW_5UITests.swift */; };
+		AF26F24220E6420A00A84E2B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26F24120E6420A00A84E2B /* Colors.swift */; };
+		AF26F24520E647F300A84E2B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26F24420E647F300A84E2B /* Extensions.swift */; };
+		AF26F24920E6536F00A84E2B /* MathExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26F24820E6536F00A84E2B /* MathExercisesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		AF26F22E20E6300C00A84E2B /* HW-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF26F23220E6300C00A84E2B /* HW_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_5UITests.swift; sourceTree = "<group>"; };
 		AF26F23420E6300C00A84E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF26F24120E6420A00A84E2B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AF26F24420E647F300A84E2B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF26F24820E6536F00A84E2B /* MathExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExercisesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		AF26F20F20E6300B00A84E2B /* HW-5 */ = {
 			isa = PBXGroup;
 			children = (
+				AF26F24320E647DF00A84E2B /* Extensions */,
+				AF26F24020E641F700A84E2B /* Helper */,
 				AF26F21020E6300B00A84E2B /* AppDelegate.swift */,
 				AF26F21220E6300B00A84E2B /* FirstViewController.swift */,
 				AF26F21420E6300B00A84E2B /* SecondViewController.swift */,
+				AF26F24820E6536F00A84E2B /* MathExercisesViewController.swift */,
 				AF26F21620E6300B00A84E2B /* Main.storyboard */,
 				AF26F21920E6300C00A84E2B /* Assets.xcassets */,
 				AF26F21B20E6300C00A84E2B /* LaunchScreen.storyboard */,
@@ -126,6 +135,22 @@
 				AF26F23420E6300C00A84E2B /* Info.plist */,
 			);
 			path = "HW-5UITests";
+			sourceTree = "<group>";
+		};
+		AF26F24020E641F700A84E2B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AF26F24120E6420A00A84E2B /* Colors.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF26F24320E647DF00A84E2B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF26F24420E647F300A84E2B /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF26F24520E647F300A84E2B /* Extensions.swift in Sources */,
 				AF26F21520E6300B00A84E2B /* SecondViewController.swift in Sources */,
+				AF26F24220E6420A00A84E2B /* Colors.swift in Sources */,
 				AF26F21120E6300B00A84E2B /* AppDelegate.swift in Sources */,
+				AF26F24920E6536F00A84E2B /* MathExercisesViewController.swift in Sources */,
 				AF26F21320E6300B00A84E2B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
